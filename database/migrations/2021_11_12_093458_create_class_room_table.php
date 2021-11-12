@@ -19,7 +19,6 @@ class CreateClassRoomTable extends Migration
             $table->longText('subimages')->nullable();
             $table->longText('description')->nullable();
             $table->string('headimage');
-            $table->unsignedBigInteger('division_id')->nullable();
             $table->timestamps();
         });
     }
